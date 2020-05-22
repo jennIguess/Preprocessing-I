@@ -133,8 +133,8 @@ table {
 html,
 body {
   height: 100%;
-  margin: 20px;
   font-size: 62.5%;
+  margin: 20px;
 }
 header {
   display: flex;
@@ -144,12 +144,12 @@ header {
 header a {
   font-size: 3rem;
   text-decoration: none;
-  color: black;
+  color: darkseagreen;
   margin: 30px;
 }
 .section1 {
   padding: 20px;
-  background-color: olivedrab;
+  background-color: paleturquoise;
 }
 .section1 img {
   max-width: 20%;
@@ -159,31 +159,115 @@ header a {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  border-bottom: 2px dotted black;
+  border-bottom: 2px dotted cadetblue;
 }
 .section1 .HPwizard .name {
   font-size: 7rem;
+  color: lightcyan;
   padding: 10px;
 }
 .section1 .HPwizard .darkness {
   font-size: 3rem;
+  color: cadetblue;
   padding: 10px;
 }
 .contact {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   padding: 20px;
+  color: darkcyan;
 }
 .contact .owl {
-  font-size: 2rem;
+  font-size: 3rem;
   padding: 10px;
 }
 .contact button {
   width: 15%;
   border-radius: 10%;
+  background-color: lightcyan;
 }
 .contact button a {
   font-size: 3rem;
   text-decoration: none;
-  color: black;
+  color: darkcyan;
+}
+.section2 {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.section2 .about {
+  margin-top: 20px;
+  padding-left: 10%;
+  padding-right: 10%;
+  width: 40%;
+}
+.section2 .about span {
+  font-size: 4rem;
+  margin: 7px;
+  color: cadetblue;
+}
+.section2 .about .story {
+  font-size: 2rem;
+  border: 1px solid darkseagreen;
+  background-color: darkseagreen;
+  color: lightcyan;
+  padding: 5%;
+  line-height: 150%;
+}
+.section2 .spells {
+  margin-top: 20px;
+  padding-left: 10%;
+  padding-right: 10%;
+  width: 40%;
+}
+.section2 .spells span {
+  font-size: 4rem;
+  margin: 7px;
+  color: cadetblue;
+}
+.section2 .spells .list {
+  font-size: 2rem;
+  border: 1px solid darkseagreen;
+  background-color: darkseagreen;
+  color: lightcyan;
+  padding: 5%;
+  line-height: 180%;
+}
+.section3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: cadetblue;
+  text-align: center;
+  padding: 120px;
+  width: 100%;
+}
+.section3 .history {
+  font-size: 4rem;
+  margin: 20px;
+}
+.section3 table {
+  border: 1px solid darkseagreen;
+}
+.section3 table th {
+  font-size: 3rem;
+  border-bottom: 1px solid darkseagreen;
+}
+.section3 table tr {
+  border: 1px solid darkseagreen;
+}
+.section3 table td {
+  font-size: 2rem;
+}
+footer {
+  width: 100%;
+  padding: 20px;
+  border: 1px dotted lightcyan;
+  background-color: paleturquoise;
+  text-align: center;
+  font-size: 1.5rem;
+  color: cadetblue;
 }
